@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #282a36;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	font: 12pt &quot;Tahoma&quot;;
+	color: rgb(255, 255, 255);
+
+	background-color:#44475a;
+
+}
+QLabel:hover{
+	border: 2px solid  rgb(233, 255, 119);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>                                                  Projeto PI 2021 GAB</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>511</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	font: 12pt &quot;Tahoma&quot;;
+	color: rgb(255, 255, 255);
+
+	background-color:#44475a;
+	border-radius: 10px;
+
+}
+
+QLabel:hover {
+	border: 2px solid;
+	border-color: rgb(255, 0, 4);
+}</string>
+    </property>
+    <property name="text">
+     <string>Seja Bem-vindo! Voçê tem 3 opções de Gráficos e uma resposta textual</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 12pt &quot;Tahoma&quot;;
+	background-color: rgb(7, 168, 255);
+	border-radius: 8px;
+	color: #fff;
+}
+QPushButton:hover {
+	border: 2px solid;
+	border-color: rgb(6, 43, 255);
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Gráfico 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>240</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 12pt &quot;Tahoma&quot;;
+	
+	background-color: rgb(30, 243, 15);
+	border-radius: 8px;
+	color: #fff;
+}
+QPushButton:hover {
+	border: 2px solid;
+	border-color: rgb(6, 43, 255);
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Gráfico 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>240</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 12pt &quot;Tahoma&quot;;
+	background-color: rgb(139, 44, 255);
+	border-radius: 8px;
+	color: #fff;
+}
+QPushButton:hover {
+	border: 2px solid;
+	border-color: rgb(6, 43, 255);
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Gráfico 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>240</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 12pt &quot;Tahoma&quot;;
+	background-color: rgb(208, 139, 208);
+	border-radius: 8px;
+	color: #fff;
+}
+QPushButton:hover {
+	border: 2px solid;
+	border-color: rgb(255, 115, 255);
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Resposta Textual</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl_python3_beta_ProjetoPI2021GABRIELPEREIRASILVA"
+version = "0.1.0"
+description = ""
+authors = ["Gabrielps <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.5"
+emoji = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
